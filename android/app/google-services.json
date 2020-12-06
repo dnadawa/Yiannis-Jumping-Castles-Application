@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17112174379",
+    "project_id": "yiannis-jumping-castles",
+    "storage_bucket": "yiannis-jumping-castles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17112174379:android:697d3aaeb62455628aff6e",
+        "android_client_info": {
+          "package_name": "com.digiwrecks.yiannis_jumping_castles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17112174379-slsnp5fse3qu8pnutn46shboh57dn42j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_ZAAdrWm6d0IIW5WGDNGThWtAQYV1f5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17112174379-slsnp5fse3qu8pnutn46shboh57dn42j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
