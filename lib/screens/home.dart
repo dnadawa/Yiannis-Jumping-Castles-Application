@@ -85,10 +85,13 @@ class _HomeState extends State<Home> {
               String description = data[i]['description'];
               String id = data[i].id;
               List booked = data[i]['booked'];
+              bool enabled = data[i]['enabled'];
               return GestureDetector(
                 onTap: (){
-                  Navigator.push(context, CupertinoPageRoute(builder: (context){
-                    return Details(title: name,description: description,image: image,dates: booked,id: id,);}));
+                  if(enabled){
+                    Navigator.push(context, CupertinoPageRoute(builder: (context){
+                      return Details(title: name,description: description,image: image,dates: booked,id: id,);}));
+                  }
                 },
                 child: Card(
                   color: Color(0xffFFCDD2),

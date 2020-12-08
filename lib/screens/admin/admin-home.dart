@@ -109,7 +109,8 @@ class _AdminHomeState extends State<AdminHome> {
                             'description': description.text,
                             'image': downloadURL,
                             'name': name.text,
-                            'booked': []
+                            'booked': [],
+                            'enabled': true
                           });
 
                           setState(() {
